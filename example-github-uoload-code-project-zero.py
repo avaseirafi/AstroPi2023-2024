@@ -36,4 +36,16 @@ v = (255, 0, 0) # Red
 w = (255, 192, 203) # Pink
 y = (255, 20, 147) # DeepPink
 z = (153, 50, 204) # DarkOrchid
+
+
+image = [
+  c, c, y, y, y, y, c, c,
+  c, y, y, t, t, y, y, c,
+  y, y, t, q, q, t, y, y,
+  c, y, y, t, t, y, y, c,
+  c, c, y, y, y, y, c, c,
+  m, c, c, m, m, c, c, m,
+  c, m, m, m, m, m, m, c,
+  c, c, c, m, m, c, c, c]
 # Display the image
+sense.set_pixels(image)
